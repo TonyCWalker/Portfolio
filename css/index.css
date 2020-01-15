@@ -27,12 +27,22 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .section {
-  height: 325px;
-  border-bottom: 3px solid gray;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
+  height: 300px;
+  width: 28%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+.p {
+  padding-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
 }
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -211,9 +221,10 @@ img {
 }
 .top-nav {
   width: 100%;
-  height: auto;
+  height: 125px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: black;
   color: white;
 }
@@ -284,21 +295,25 @@ footer .copyright h2 {
 }
 .home .middle-content {
   flex-grow: 1;
-  height: 100vh;
-  width: 1000px;
+  height: 74.5vh;
   margin: 0 auto;
-  border-right: 3px solid gray;
-  border-left: 3px solid gray;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   background: whitesmoke;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .home .middle-content .top {
-  height: 325px;
-  border-bottom: 3px solid gray;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
+  height: 300px;
+  width: 28%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
 }
 .home .middle-content .top button {
   width: 200px;
@@ -320,14 +335,19 @@ footer .copyright h2 {
   padding-bottom: 3rem;
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 .home .middle-content .middle {
-  height: 325px;
-  border-bottom: 3px solid gray;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
+  height: 300px;
+  width: 28%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
 }
 .home .middle-content .middle button {
   width: 200px;
@@ -349,15 +369,19 @@ footer .copyright h2 {
   padding-bottom: 3rem;
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 .home .middle-content .bottom {
-  height: 325px;
-  border-bottom: 3px solid gray;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
-  border-bottom: none;
+  border: 2px solid black;
+  height: 300px;
+  width: 28%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
 }
 .home .middle-content .bottom button {
   width: 200px;
@@ -379,6 +403,7 @@ footer .copyright h2 {
   padding-bottom: 3rem;
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 .about {
   display: flex;
@@ -387,18 +412,15 @@ footer .copyright h2 {
 }
 .about .middle-content {
   flex-grow: 1;
-  height: 80vh;
-  width: 1000px;
+  height: 74.5vh;
   margin: 0 auto;
-  border-right: 3px solid gray;
-  border-left: 3px solid gray;
   background: whitesmoke;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 2rem 0 2 rem;
+  padding: 20px;
 }
 .about .middle-content h1 {
   font-weight: bold;
